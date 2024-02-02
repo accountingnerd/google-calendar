@@ -1,10 +1,10 @@
 /* ==UserStyle==
-@name           calendar.google.com - 9/28/2023, 7:35:12 AM
-@namespace      github.com/accountingnerd/google-calendar
+@name           Google Calendar Dracula
+@namespace      github.com/dracula/google-calendar
 @version        1.0.0
 @description    A dark theme for Google Calendar
 @author         accountingnerd [(https://github.com/accountingnerd)]
-@homepageURL	https://github.com/accountingnerd/google-calendar
+@homepageURL	https://github.com/dracula/google-calendar
 ==/UserStyle== */
 @-moz-document domain("calendar.google.com") {
 	/* Overall Dark Color Theme for Google Calendar */
@@ -25,7 +25,8 @@
 		--purple: #bd93f9;
 		--red: #ff5555;
 		--yellow: #f1fa8c;
-		--comment-dimmed: rgba(98, 114, 164, 1) --hairline: var(--currentLine);
+		--comment-dimmed: rgba(98, 114, 164, 1);
+		--hairline: var(--currentLine);
 		--surface: var(--background);
 		--on-surface: var(--foreground);
 		--on-surface-variant: var(--comment);
