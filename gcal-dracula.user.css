@@ -46,7 +46,7 @@
 		--on-secondary-variant: var(--comment);
 		--surface-transparent: rgba(40, 42, 55, 0);
 		--now: var(--red);
-		--dimmed: rgba(68, 71, 90, 0.38);
+		--dimmed: var(--comment);
 		--chip-hover: var(--purple);
 		--error: var(--red);
 		--on-error: var(--foreground);
@@ -98,6 +98,8 @@
 	.gb_Cc .gb_9c/* Calendar Word */
 	,
 	.gb_cd/* Search Heading after search */
+	,
+	#gb
 	{
 		background-color: var(--currentLine)!important;
 		color: var(--foreground)!important;
